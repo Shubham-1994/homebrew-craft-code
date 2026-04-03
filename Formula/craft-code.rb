@@ -2,8 +2,8 @@ class CraftCode < Formula
   include Language::Python::Virtualenv
 
   desc "An AI coding assistant"
-  homepage "https://github.com/shubhamagarwal/code-craft"
-  url "https://github.com/shubhamagarwal/code-craft/archive/refs/tags/v0.1.4.tar.gz"
+  homepage "https://github.com/Shubham-1994/code-craft"
+  url "https://github.com/Shubham-1994/code-craft/archive/refs/tags/v0.1.4.tar.gz"
   sha256 "c733d6fb444cbdd80811ea57ff6e95688d350eb1d0fc953028913fde5fcded3d"
   license "MIT"
 
