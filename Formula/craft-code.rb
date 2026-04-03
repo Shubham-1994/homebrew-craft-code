@@ -8,6 +8,7 @@ class CraftCode < Formula
   license "MIT"
 
   depends_on "python@3.12"
+  depends_on "rust" => :build
 
   # Resources generated with homebrew-pypi-poet on 2026-04-03
   resource "PyYAML" do
