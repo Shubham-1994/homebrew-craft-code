@@ -3,14 +3,14 @@ class CraftCode < Formula
 
   desc "An AI coding assistant"
   homepage "https://github.com/Shubham-1994/code-craft"
-  url "https://files.pythonhosted.org/packages/bc/d3/3d8d829de9adb41b1e131d686889a54d75c40271436f1df9c70184f0c7a1/craft_code-0.1.11.tar.gz"
-  sha256 "391f76d65e562efc86dbb80d5ef9c1c460f59abc18a5306a97c0169c9bb90fa7"
+  url "https://files.pythonhosted.org/packages/f1/97/d2173c3ed639ef4d5746389a63634d6166fdbc7648357d9c12fac5431519/craft_code-0.1.12.tar.gz"
+  sha256 "ee894d893a8a9444386f3e6a7bae09131f8d1344b8b4f8dac4468b3eadd2596c"
   license "MIT"
 
   depends_on "python@3.12"
   depends_on "rust" => :build
 
-  # Resources generated with homebrew-pypi-poet on 2026-04-03
+  # Resources generated with homebrew-pypi-poet on 2026-04-04
   resource "PyYAML" do
     url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
     sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
@@ -27,8 +27,8 @@ class CraftCode < Formula
   end
 
   resource "anthropic" do
-    url "https://files.pythonhosted.org/packages/86/68/565f13059c0a6a6fd5f96f306f2a0fb478a0e1174ec18a4df16b5fac9379/anthropic-0.88.0.tar.gz"
-    sha256 "f4c7f6863d08c869913516f08d658fe53caaf8bcc4fbea3218df343d2a876c58"
+    url "https://files.pythonhosted.org/packages/60/af/862e216dd6c5e9bc02fb374eeaaa19017c51b90ddfa5692668a3811947bd/anthropic-0.89.0.tar.gz"
+    sha256 "f3d75b8ccef4b35f3702639519e461eba437d4bcdfabb69378c65a02ab7bda66"
   end
 
   resource "anyio" do
@@ -132,8 +132,8 @@ class CraftCode < Formula
   end
 
   resource "langchain-core" do
-    url "https://files.pythonhosted.org/packages/86/2a/d65de24fc9b7989137253da8973f850f3e39b4ce3e0377bc8200d6b3c189/langchain_core-1.2.25.tar.gz"
-    sha256 "77e032b96509d0eb1f6875042fdf97b7e2334a815314700c6894d9d078909b9c"
+    url "https://files.pythonhosted.org/packages/8c/b0/30ed29e5820580bc13d70b1f8a212b4fe0609a9737164ed1a90167941ca2/langchain_core-1.2.26.tar.gz"
+    sha256 "ba025ec70e19b56467f46b9109de19d30d169d328a174986b353cb23fd0ff0fe"
   end
 
   resource "langchain-google-genai" do
@@ -157,8 +157,8 @@ class CraftCode < Formula
   end
 
   resource "langgraph-prebuilt" do
-    url "https://files.pythonhosted.org/packages/0d/06/dd61a5c2dce009d1b03b1d56f2a85b3127659fdddf5b3be5d8f1d60820fb/langgraph_prebuilt-1.0.8.tar.gz"
-    sha256 "0cd3cf5473ced8a6cd687cc5294e08d3de57529d8dd14fdc6ae4899549efcf69"
+    url "https://files.pythonhosted.org/packages/99/4c/06dac899f4945bedb0c3a1583c19484c2cc894114ea30d9a538dd270086e/langgraph_prebuilt-1.0.9.tar.gz"
+    sha256 "93de7512e9caade4b77ead92428f6215c521fdb71b8ffda8cd55f0ad814e64de"
   end
 
   resource "langgraph-sdk" do
@@ -172,8 +172,8 @@ class CraftCode < Formula
   end
 
   resource "langsmith" do
-    url "https://files.pythonhosted.org/packages/0d/8b/aee36b0d427834ea91d3ca5c2565817869f8cf79c18530fc3b1e961887fe/langsmith-0.7.24.tar.gz"
-    sha256 "44ecd36b2dc8f36bc922d3eadf7f0ca5686ecc0e212d8fca85b2a306695a7376"
+    url "https://files.pythonhosted.org/packages/7e/d7/21ffae5ccdc3c9b8de283e8f8bf48a92039681df0d39f15133d8ff8965bd/langsmith-0.7.25.tar.gz"
+    sha256 "d17da71f156ca69eafd28ac9627c8e0e93170260ec37cd27cedc83205a067598"
   end
 
   resource "markdown-it-py" do
