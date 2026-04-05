@@ -3,14 +3,14 @@ class CraftCode < Formula
 
   desc "An AI coding assistant"
   homepage "https://github.com/Shubham-1994/code-craft"
-  url "https://files.pythonhosted.org/packages/f1/97/d2173c3ed639ef4d5746389a63634d6166fdbc7648357d9c12fac5431519/craft_code-0.1.12.tar.gz"
-  sha256 "ee894d893a8a9444386f3e6a7bae09131f8d1344b8b4f8dac4468b3eadd2596c"
+  url "https://files.pythonhosted.org/packages/21/1f/f426a53659abdd47485f3125b81be3ff66387e21d35b84cce4ca1645dcb8/craft_code-0.1.13.tar.gz"
+  sha256 "28c6963fdcffb55afc78cb8cce9b8af75f30cd38ed2cadafbe5c572843e7ffa1"
   license "MIT"
 
   depends_on "python@3.12"
   depends_on "rust" => :build
 
-  # Resources generated with homebrew-pypi-poet on 2026-04-04
+  # Resources generated with homebrew-pypi-poet on 2026-04-05
   resource "PyYAML" do
     url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
     sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
