@@ -3,8 +3,8 @@ class CraftCode < Formula
 
   desc "An AI coding assistant"
   homepage "https://github.com/Shubham-1994/code-craft"
-  url "https://files.pythonhosted.org/packages/21/1f/f426a53659abdd47485f3125b81be3ff66387e21d35b84cce4ca1645dcb8/craft_code-0.1.13.tar.gz"
-  sha256 "28c6963fdcffb55afc78cb8cce9b8af75f30cd38ed2cadafbe5c572843e7ffa1"
+  url "https://files.pythonhosted.org/packages/50/a2/40b9caf8c6d652dbdc38919ab87bf0921bf8807868a20d0c555d147b266c/craft_code-0.1.14.tar.gz"
+  sha256 "52f592b1591927c56b1c9c4b2e5c1e3c4f7bee8b2cfc693671567b61f92e6174"
   license "MIT"
 
   depends_on "python@3.12"
